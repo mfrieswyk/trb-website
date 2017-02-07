@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: #323035;
+	height:100%;
+}
+
+.header {
+	height: 250px;
+	width: 100%;
+	background-color: #1b1b1d;
+}
+.name {
+    color: #FFFFFF;
+	font-size:65px;
+    text-align: left;
+	padding-left:250px;
+	padding-top: 50px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing:2px;
+}
+.title {
+    color: #5C5A60;
+	padding-left:250px;
+	font-size:24px;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing:3px;
+}
+
+	.nav-main ul {
+		display:table;
+		border-collapse:collapse;
+		width:100%;
+		margin-top:-10px;
+	}
+	.nav-main li {
+		display:table-cell; 
+		background:#000;
+		vertical-align:middle;
+		text-align:center;
+		float:auto;
+		width:16.66%;
+    	overflow:hidden;
+	}
+	.nav-main a {
+	display:block;
+    text-decoration:none;
+    color:#FFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform:uppercase;
+	letter-spacing:3px;
+    padding:110px 20px;
+    margin:-100px 0;
+    transition: background 0.4s;
+	}
+	.nav-main a:hover,
+	.nav-main a:focus,
+	.nav-main a.on {
+		outline:none;
+		color:#fff;
+		background:#A652FF;
+		transition: color 0.4s;
+	}
+	.nav-main a.on:hover {
+		color:#000;
+	}
+	
+	.container {
+	width: 1010px;
+	max-height:100%;
+	overflow: hidden;
+	margin: auto;
+	margin-top:-16px;
+	background-color:#FFF;
+	}
+	
+	.container_left {
+		width: 505px;
+		height: 505px;
+		float:left;
+		background-color:#FFF;
+	}	
+	.container_right {
+		width: 505px;
+		height: 600px;
+		float:left;
+		background-color:#FFF;
+		overflow:auto;
+	}
+	.container_right table {
+		font-size: 1em;
+		font-family: 'Open Sans Condensed', sans-serif;
+		width: 100%;
+	}
+	.container_right table td,
+	.container_right table th {
+		padding: 15px 10px;
+		min-width: 50%;
+		text-align: center;
+	}
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+    font-size: 18px;
+	letter-spacing: 3px;
+	padding:5px 25px 0px 25px;
+	line-height:25px;
+	
+}
+h1{ font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	text-transform:uppercase;
+	padding:25px 25px 0px 25px;
+	
+}
+
+.footer {
+	
+	width: 100%;
+	height: 50px;
+	background: #A652FF;
+	left: -2px;
+	visibility: visible;
+}
+.footer p {
+	padding: 12px 20px;
+	margin: auto;
+}
