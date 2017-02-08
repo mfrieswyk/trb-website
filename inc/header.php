@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <!--<link rel="stylesheet" href="css/style.css">-->
-  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <!-- Optional theme -->
@@ -102,7 +102,7 @@
       </div>
     </div>
   </div>
-  <nav role="navigation" class="navbar navbar-custom"> 
+  <nav role="navigation" class="navbar navbar-custom">
   <!-- <nav class="navbar navbar-custom navbar-static-top"> -->
     <div class="container-fluid" id="menu">
       <!-- Brand and toggle get grouped for better mobile display -->
